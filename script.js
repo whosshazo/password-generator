@@ -25,7 +25,7 @@ function generatePassword() {
   var hasSpecials = confirm("Would you like Special Characters?");
 
   if (!hasUppers && !hasLowers && !hasNumbers && !hasSpecials) {
-    alert("Please choose shit correctly");
+    alert("Please choose availible selections");
     return;
   };
 
